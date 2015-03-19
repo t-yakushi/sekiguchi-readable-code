@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80a97e4c-8322-4950-8ee4-bc16d9cd28ce" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/recipeInformation" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipeInformation.class" afterPath="$PROJECT_DIR$/recipeInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipeInformation.java" afterPath="$PROJECT_DIR$/recipeInformation.java" />
     </list>
     <ignored path="sekiguchi-readable-code.iws" />
     <ignored path=".idea/workspace.xml" />

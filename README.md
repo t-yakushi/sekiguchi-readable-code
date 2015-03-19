@@ -3,3 +3,6 @@
 
 実行手順
 java recipeInformation
+
+データフォーマット
+テキスト形式
