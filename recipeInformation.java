@@ -6,12 +6,13 @@ import java.io.IOException;
 class recipeInformation{
   public static void main(String args[]){
 
- try {
+  try {
             //ファイルを読み込む
             FileReader fr = new FileReader("recipe-data.txt");
             BufferedReader br = new BufferedReader(fr);
 
             //読み込んだファイルを１行ずつ処理する
+            Integer count=0;
             String line;
             StringTokenizer token;
             while ((line = br.readLine()) != null) {
@@ -20,7 +21,7 @@ class recipeInformation{
 
                 //分割した文字を画面出力する
                 while (token.hasMoreTokens()) {
-                    System.out.println(token.nextToken());
+                    System.out.println(createOutputLine(++count,token.nextToken()));
                 }
                 //System.out.println("**********");
             }
@@ -33,4 +34,9 @@ class recipeInformation{
             ex.printStackTrace();
         } 
    }
+
+  private static String createOutputLine(Integer count, String outParameter) {
+    return String.valueOf(count) + ": " + outParameter;
+  }
+
 }

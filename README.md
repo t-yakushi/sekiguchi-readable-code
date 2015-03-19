@@ -5,4 +5,5 @@
 java recipeInformation
 
 データフォーマット
-テキスト形式
+csv形式
+カンマ、または、改行を区切りとする
